@@ -1,0 +1,89 @@
+#body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#border {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 7%;
+  color: white;
+  margin-top: 5%;
+  width: 35%;
+  height: 30%;
+  padding: 2em;
+}
+#look{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#search{
+  width:80%;
+  background-color: rgba(106, 125, 136, 0.4);
+  border-radius: 18px;
+  border:none;
+  padding:0.6em;
+  outline: none;
+  color:white;
+  font-size: 1em;
+}
+#click{
+  width:10%;
+  background-color: rgba(106, 125, 136, 0.4);
+  outline: none;
+  border-radius: 10px;
+  border:none;
+  padding:0.6em;
+  color:grey;
+}
+#heading {
+  margin-top: 5%;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0%;
+  font-weight: bolder;
+}
+#temperature {
+  text-align: left;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
+#icon{
+  height: 60px;
+}
+#flex{
+  display: flex;
+  align-items:flex-start;
+  flex-direction: row;
+}
+#description {
+  text-align: left;
+  font-size: 25px;
+  font-weight: lighter;
+  vertical-align: text-bottom;
+}
+#humidity {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#speed {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#min {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#max {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+}
